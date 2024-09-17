@@ -47,12 +47,12 @@ html_theme = "furo"
 
 
 # EPUB settings
-epub_title = 'Wazuh-Documentation-5.0'
+epub_title = 'Wazuh-Documentation-4.9'
 epub_author = 'Yohannes Iyob Tekle'
 epub_publisher = 'Yohannes-Publishers-Private'
 epub_copyright = '2024'
 epub_identifier = 'unique-identifier'
-epub_scheme = '2024-09-12-Version-5.0'
+epub_scheme = '2024-09-17-Version-4.9'
 epub_language = 'en'
 epub_exclude_files = ['search.html']
 
@@ -79,7 +79,7 @@ latex_documents = [
 ]
 
 # HTML title and favicon
-html_title = f'{project} Documentation-5.0'
+# html_title = f'{project} Documentation-4.9'
 
 # Path to the logo image
 html_logo = 'icons/wazuh-logo-john.png'   
