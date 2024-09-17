@@ -78,7 +78,7 @@ latex_documents = [
 ]
 
 # HTML title and favicon
-# html_title = f'{project} Documentation-4.9'
+html_title = f'{project} Documentation-4.9'
 
 # Path to the logo image
 html_logo = 'icons/wazuh-logo-john.png'   
