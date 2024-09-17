@@ -23,7 +23,8 @@ extensions = [
 
 # Paths
 templates_path = ['_templates']
-html_static_path = ['_static','images']
+# html_static_path = ['_static','images']
+html_static_path = ['images']
 
 images_config = {
     'thumbnail_size': (150, 150),  # Thumbnail size
@@ -34,7 +35,7 @@ images_config = {
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
 
-html_css_files = ['css/wazuh-custom.css']  # Link to custom CSS
+# html_css_files = ['css/wazuh-custom.css']  # Link to custom CSS
 
 # The master toctree document.
 master_doc = 'index'
@@ -55,7 +56,7 @@ epub_language = 'en'
 epub_exclude_files = ['search.html']
 
 # Add your custom CSS file to the EPUB CSS list
-epub_css = ['css/epub.css']
+# epub_css = ['css/epub.css']
 
 latex_elements = {
 # The paper size ('letterpaper' or 'a4paper').
