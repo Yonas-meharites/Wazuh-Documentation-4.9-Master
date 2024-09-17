@@ -31,6 +31,9 @@ images_config = {
     'output_dir': '_images',       # Directory for generated thumbnails
 }
 
+# The name of the Pygments (syntax highlighting) style to use.
+pygments_style = 'sphinx'
+
 html_css_files = [
     'css/wazuh-custom.css',  # Link to custom CSS
 ]
@@ -40,6 +43,7 @@ master_doc = 'index'
 
 # HTML theme
 html_theme = 'sphinx_rtd_theme'
+
 
 # EPUB settings
 epub_title = 'Wazuh-Documentation-5.0'
@@ -54,15 +58,18 @@ epub_exclude_files = ['search.html']
 # Add your custom CSS file to the EPUB CSS list
 epub_css = ['_static/css/epub.css']
 
-# LaTeX settings for PDF
-latex_engine = 'xelatex'
 latex_elements = {
-    'papersize': 'letterpaper',
-    'fontpkg': r'\usepackage{fontspec}',  # For xelatex or lualatex
-    'fncychap': r'\usepackage[Bjarne]{fncychap}',
-    'pointsize': '10pt',
-    'preamble': r'\usepackage{lipsum}',
-    'figure_align': 'htbp',
+# The paper size ('letterpaper' or 'a4paper').
+#'papersize': 'letterpaper',
+
+# The font size ('10pt', '11pt' or '12pt').
+#'pointsize': '10pt',
+
+# Additional stuff for the LaTeX preamble.
+#'preamble': '',
+
+# Latex figure (float) alignment
+#'figure_align': 'htbp',
 }
 
 latex_documents = [
@@ -78,6 +85,10 @@ html_logo = 'icons/wazuh-logo-john.png'
 
 # Path to the favicon image
 html_favicon = 'icons/favicon.ico'
+
+
+# Add link anchors for each heading and description environment. Default: True.
+html_permalinks = True
 
 # HTML context
 html_context = {
