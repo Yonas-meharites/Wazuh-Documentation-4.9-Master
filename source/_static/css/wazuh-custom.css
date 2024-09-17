@@ -1,0 +1,42 @@
+/* _static/css/wazuh-custom.css */
+
+/* Thumbnail Styling */
+.thumbnail {
+    border: 1px solid #ddd; /* Light gray border */
+    padding: 5px; /* Padding inside the border */
+    margin: 10px; /* Margin around the thumbnail */
+}
+
+/* GitHub-style Code Blocks */
+.highlight pre {
+    background-color: #f6f8fa; /* Light gray background */
+    border: 1px solid #e1e4e8; /* Light border */
+    border-radius: 3px; /* Rounded corners */
+    padding: 16px; /* Padding inside code blocks */
+    overflow-x: auto; /* Horizontal scroll if code is too long */
+    font-size: 85%; /* Font size similar to GitHub */
+}
+
+.highlight .k { color: #d73a49; } /* Keyword */
+.highlight .n { color: #22863a; } /* Name */
+.highlight .c { color: #6a737d; } /* Comment */
+.highlight .s { color: #032f62; } /* String */
+.highlight .o { color: #e36209; } /* Operator */
+.highlight .p { color: #e36209; } /* Punctuation */
+.highlight .l { color: #005cc5; } /* Literal */
+.highlight .x { color: #e36209; } /* Special */
+
+/* Add Border and Styling to Images */
+img {
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 4px; /* Rounded corners */
+    padding: 2px; /* Space between border and image */
+    display: block; /* Removes extra space below image */
+    max-width: 100%; /* Ensure images scale to fit their container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Optional: Ensure Code Blocks are Displayed Properly */
+code {
+    font-family: monospace; /* Monospace font for code */
+}
