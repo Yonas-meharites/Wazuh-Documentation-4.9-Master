@@ -9,3 +9,4 @@ Pygments==2.15.1
 sphinx-reredirects==0.1.2
 sphinx_rtd_theme
 sphinxcontrib-images
+furo
