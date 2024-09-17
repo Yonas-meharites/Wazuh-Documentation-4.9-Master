@@ -42,7 +42,8 @@ html_css_files = [
 master_doc = 'index'
 
 # HTML theme
-html_theme = 'sphinx_rtd_theme'
+# html_theme = 'sphinx_rtd_theme'
+html_theme = "furo"
 
 
 # EPUB settings
