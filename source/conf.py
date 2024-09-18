@@ -1,6 +1,21 @@
 import os
 import sys
+import pygments
 from datetime import datetime
+
+#---------------------------code-syntax-highlight-modification----------------
+
+from pygments.styles import get_style_by_name
+
+# Import your custom style
+import pygments_wazuh  # Ensure 'pygments_wazuh' is the actual module name
+
+# Set your custom style for Pygments
+pygments_style = 'pygments-wazuh'  # Use the name of your custom style class
+
+#-----------------------------------------------------------------------------
+
+
 
 # -- Project information -----------------------------------------------------
 project = u'Wazuh'
