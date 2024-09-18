@@ -24,7 +24,9 @@ extensions = [
 # Paths
 templates_path = ['_templates']
 # html_static_path = ['_static','images']
-html_static_path = ['images']
+# html_static_path = ['images']
+html_static_path = ['_static','images']
+
 
 html_css_files = [
     'css/wazuh-custom.css',         # Your custom HTML CSS
