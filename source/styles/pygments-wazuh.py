@@ -1,13 +1,13 @@
 from pygments.style import Style
-from pygments.token import Token, Comment, Keyword, Name, String, Error, Generic, Number, Operator
+from pygments.token import Token, Comment, Keyword, Name, String
 
-class YourStyle(Style):
+class PygmentsWazuh(Style):
     styles = {
-        Token:                  '',
-        Comment:                'italic #888',
-        Keyword:                'bold #005',
-        Name:                   '#f00',
-        Name.Class:             'bold #0f0',
-        Name.Function:          '#0f0',
-        String:                 'bg:#eee #111'
+        Token:                  '',  # Default style for all tokens
+        Comment:                'italic #888',  # Italic and grey color for comments
+        Keyword:                'bold #005',  # Bold and dark blue color for keywords
+        Name:                   'bold #f00',  # Bold and red color for names
+        Name.Class:             'bold underline #0f0',  # Bold, underlined, and green color for class names
+        Name.Function:          'italic #0f0',  # Italic and green color for function names
+        String:                 'bg:#eee #111',  # Light grey background with dark grey text for strings
     }
