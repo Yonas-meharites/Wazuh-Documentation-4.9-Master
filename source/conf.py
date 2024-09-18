@@ -26,6 +26,12 @@ templates_path = ['_templates']
 # html_static_path = ['_static','images']
 html_static_path = ['images']
 
+html_css_files = [
+    'css/wazuh-custom.css',         # Your custom HTML CSS
+    'fonts/google-fonts.min.css'    # The Google Fonts CSS
+]
+
+
 images_config = {
     'thumbnail_size': (150, 150),  # Thumbnail size
     'default_image_width': '80%',  # Default image width
@@ -55,8 +61,10 @@ epub_scheme = '2024-09-17-Version-4.9'
 epub_language = 'en'
 epub_exclude_files = ['search.html']
 
-# Add your custom CSS file to the EPUB CSS list
-# epub_css = ['css/epub.css']
+epub_css_files = [
+    'css/epub.css',               # Your custom CSS
+    'fonts/google-fonts.min.css'   # The Google Fonts CSS
+]
 
 latex_elements = {
 # The paper size ('letterpaper' or 'a4paper').
