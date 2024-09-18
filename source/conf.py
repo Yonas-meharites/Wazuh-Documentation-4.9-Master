@@ -7,8 +7,6 @@ from datetime import datetime
 sys.path.insert(0, os.path.abspath('source/styles'))
 #-----------------------------------------------------------------------------
 
-
-
 # -- Project information -----------------------------------------------------
 project = u'Wazuh'
 author = u'Wazuh, Inc.'
