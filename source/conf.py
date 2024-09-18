@@ -3,8 +3,14 @@ import sys
 from datetime import datetime
 
 #---------------------------code-syntax-highlight-modification----------------
-# Add the directory containing pygments-wazuh.py to the Python path
-sys.path.insert(0, os.path.abspath('source/styles'))
+# Add the directory containing pygments_styles to the Python path
+sys.path.insert(0, os.path.abspath('source/pygments_styles'))
+
+# Verify the path has been added
+print(sys.path)
+
+# Try importing the module
+import pygments_styles
 #-----------------------------------------------------------------------------
 
 # -- Project information -----------------------------------------------------
