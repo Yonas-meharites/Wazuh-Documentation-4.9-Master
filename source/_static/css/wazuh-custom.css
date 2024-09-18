@@ -10,6 +10,15 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+pre {
+    white-space: pre-wrap; /* This ensures long lines wrap properly */
+    word-wrap: break-word; /* This forces long words (like URLs) to break */
+}
+
+code {
+    white-space: pre-wrap; /* This ensures long lines wrap properly */
+}
+
 /* Existing styles (for reference) */
 .highlight {
     position: relative;
@@ -21,7 +30,7 @@ body {
     line-height: 24px;
 }
 
-/* Additional styles you want to include */
+/* Additional styles */
 .element {
     background-color: #f0f0f0;
 }
