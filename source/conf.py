@@ -1,14 +1,10 @@
 import os
 import sys
-import pygments
 from datetime import datetime
 
 #---------------------------code-syntax-highlight-modification----------------
 # Add the directory containing pygments-wazuh.py to the Python path
 sys.path.insert(0, os.path.abspath('source/styles'))
-
-# Import your custom style
-import pygments_wazuh
 #-----------------------------------------------------------------------------
 
 
@@ -51,7 +47,7 @@ images_config = {
 
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
-pygments_style = 'pygments-wazuh'
+pygments_style = 'PygmentsWazuh'
 
 # html_css_files = ['css/wazuh-custom.css']  # Link to custom CSS
 
