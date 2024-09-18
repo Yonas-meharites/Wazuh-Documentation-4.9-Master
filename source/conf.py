@@ -41,7 +41,7 @@ images_config = {
 # The name of the Pygments (syntax highlighting) style to use.
 # pygments_style = 'sphinx'
 # Set the custom Pygments style
-pygments_style = 'PygmentsWazuhStyle'
+
 
 # html_css_files = ['css/wazuh-custom.css']  # Link to custom CSS
 
