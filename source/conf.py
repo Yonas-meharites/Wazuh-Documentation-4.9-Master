@@ -4,13 +4,13 @@ from datetime import datetime
 
 #---------------------------code-syntax-highlight-modification----------------
 # Add the directory containing pygments_wazuh.py to the Python path
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), 'styles')))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), 'pygments_styles')))
 
 # Import your custom style
 try:
     import pygments_wazuh
 except ImportError:
-    print("Error: Could not import 'pygments_wazuh'. Ensure the module is located in 'source/styles'.")
+    print("Error: Could not import 'pygments_wazuh'. Ensure the module is located in 'source/pygments_styles'.")
     raise
 
 # Set the custom Pygments style
