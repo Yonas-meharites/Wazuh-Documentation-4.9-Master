@@ -53,12 +53,12 @@ code {
     background-color: #d3d3d3; /* Light gray background color */
     padding: 2px 4px; /* Optional: Padding to add space around text */
     border-radius: 3px; /* Optional: Rounded corners */
-
+}
 
 .code.docutils.literal.notranslate .pre {
     color: #fba095; /* Red text color */
     background-color: #e2eefe; /* Light blue background color */
     padding: 2px 4px; /* Padding to make the text stand out */
     border-radius: 3px; /* Rounded corners */
-    font-weight: bold; /* Makes the text bold */
+    font-weight: normal; /* Ensures the text is not bold */
 }
