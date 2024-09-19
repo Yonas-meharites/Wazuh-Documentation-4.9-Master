@@ -3,12 +3,10 @@ pre {
     word-wrap: break-word; /* This forces long words (like URLs) to break */
 }
 
-.reference.external .link-target {
+div.reference.external .link-target {
     all: unset !important; /* Resets all properties */
-    color: inherit !important; /* Resets text color to inherit from parent */
-    background-color: transparent !important; /* Resets background color */
-    text-decoration: none !important; /* Removes underline for links */
 }
+
 
 
 code {
