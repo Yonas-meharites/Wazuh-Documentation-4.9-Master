@@ -28,11 +28,15 @@ templates_path = ['_templates']
 html_static_path = ['_static','images']
 
 
-html_css_files = [
-    'css/wazuh-custom.css',         # Your custom HTML CSS
-    'fonts/google-fonts.min.css'    # The Google Fonts CSS
-]
+# html_css_files = [
+# 'css/wazuh-custom.css',         # Your custom HTML CSS
+#    'fonts/google-fonts.min.css'    # The Google Fonts CSS
+#]
 
+
+html_css_files = [
+    'css/wazuh-custom.css',         # custom-HTML-CSS
+]
 
 images_config = {
     'thumbnail_size': (150, 150),  # Thumbnail size
@@ -67,9 +71,13 @@ epub_exclude_files = ['search.html']
 epub_cover = ('_static/_images/Cover.png', '')
 
 
+# epub_css_files = [
+#   'css/epub.css',               # Your custom CSS
+#    'fonts/google-fonts.min.css'   # The Google Fonts CSS
+# ]
+
 epub_css_files = [
-    'css/epub.css',               # Your custom CSS
-    'fonts/google-fonts.min.css'   # The Google Fonts CSS
+    'css/epub.css',     # custom-CSS
 ]
 
 latex_elements = {
