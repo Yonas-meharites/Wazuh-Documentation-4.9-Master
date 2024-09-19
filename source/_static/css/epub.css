@@ -13,7 +13,6 @@ code {
     z-index: 0;
     display: block;
     padding: 0;
-    font-family: "Fira Mono", monospace;
     font-size: 9px; /* Set default font size for code */
     line-height: 18px;
 }
