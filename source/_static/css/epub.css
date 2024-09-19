@@ -4,12 +4,12 @@ pre {
 }
 
 .reference.external .link-target {
-    all: unset; /* Resets all properties */
-    /* Alternatively, you can reset specific properties */
-    color: inherit; /* Resets text color to inherit from parent */
-    background-color: transparent; /* Resets background color */
-    text-decoration: none; /* Removes underline for links */
+    all: unset !important; /* Resets all properties */
+    color: inherit !important; /* Resets text color to inherit from parent */
+    background-color: transparent !important; /* Resets background color */
+    text-decoration: none !important; /* Removes underline for links */
 }
+
 
 
 code {
