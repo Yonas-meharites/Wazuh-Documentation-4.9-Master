@@ -3,8 +3,8 @@ pre {
     word-wrap: break-word; /* This forces long words (like URLs) to break */
 }
 
-.link-target {
-    all: unset; /* Resets all properties */
+.output .link-target {
+    all: unset; /* Resets all properties for .link-target inside .output */
 }
 
 code {
