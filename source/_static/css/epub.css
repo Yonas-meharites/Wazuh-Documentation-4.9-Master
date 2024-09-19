@@ -39,7 +39,7 @@ code {
     background-color: #e2eefe; /* Light blue background color */
     padding: 2px 4px; /* Padding to make the text stand out */
     border-radius: 3px; /* Rounded corners */
-    font-weight: bold; /* Ensures the text is not bold */
+    font-weight: normal; /* Ensures the text is not bold */
 }
 
 /* Apply normal spacing for all links */
