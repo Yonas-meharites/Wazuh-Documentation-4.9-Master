@@ -47,7 +47,7 @@ code {
     border-radius: 3px; /* Optional: Rounded corners */
 }
 
-
+/* outputs in console..............*/
 .highlight-console.notranslate {
     color: #000; /* Optional: Text color (e.g., black) */
     background-color: #d3d3d3; /* Light gray background color */
@@ -55,10 +55,20 @@ code {
     border-radius: 3px; /* Optional: Rounded corners */
 }
 
+/* literal inclosed texts between two backticks..*/
 .code.docutils.literal.notranslate .pre {
     color: #fba095; /* Red text color */
     background-color: #e2eefe; /* Light blue background color */
     padding: 2px 4px; /* Padding to make the text stand out */
     border-radius: 3px; /* Rounded corners */
     font-weight: normal; /* Ensures the text is not bold */
+}
+
+/* Apply normal spacing for all links */
+a {
+    display: inline; /* Ensures the link stays inline */
+    margin: 0; /* Removes any margin */
+    padding: 0; /* Removes any padding */
+    line-height: normal; /* Resets line height to normal */
+    word-spacing: normal; /* Resets word spacing to normal */
 }
