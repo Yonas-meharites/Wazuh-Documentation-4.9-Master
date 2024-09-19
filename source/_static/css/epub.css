@@ -23,9 +23,8 @@ code {
 .highlight {
     position: relative;
     z-index: 0;
-    display: flex;
+    display: block;
     padding: 0;
-    overflow-x: auto;
     font-family: "Fira Mono", monospace;
     font-size: 9px; /* Set default font size for code */
     line-height: 18px;
