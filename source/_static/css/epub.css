@@ -4,7 +4,7 @@ body {
     position: relative;
     margin-top: calc(80px + 54px);
     font-family: Manrope, sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -19,7 +19,7 @@ code {
     white-space: pre-wrap; /* This ensures long lines wrap properly */
 }
 
-/* Existing styles (for reference) */
+/* Highlighted code styles */
 .highlight {
     position: relative;
     z-index: 0;
@@ -27,8 +27,16 @@ code {
     padding: 0;
     overflow-x: auto;
     font-family: "Fira Mono", monospace;
-    line-height: 24px;
+    font-size: 10px; /* Set default font size for code */
+    line-height: 20px;
 }
+
+/* Token-specific styles (for finer control) */
+.highlight .c { font-size: 10px; } /* Comment */
+.highlight .err { font-size: 10px; } /* Error */
+.highlight .l { font-size: 10px; } /* Literal */
+.highlight .n { font-size: 10px; } /* Name */
+.highlight .k { font-size: 10px; } /* Keyword */
 
 /* Additional styles */
 .element {
