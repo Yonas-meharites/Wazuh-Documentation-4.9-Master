@@ -3,9 +3,14 @@ pre {
     word-wrap: break-word; /* This forces long words (like URLs) to break */
 }
 
-.output .link-target {
-    all: unset; /* Resets all properties for .link-target inside .output */
+.reference.external .link-target {
+    all: unset; /* Resets all properties */
+    /* Alternatively, you can reset specific properties */
+    color: inherit; /* Resets text color to inherit from parent */
+    background-color: transparent; /* Resets background color */
+    text-decoration: none; /* Removes underline for links */
 }
+
 
 code {
     white-space: pre-wrap; /* This ensures long lines wrap properly */
