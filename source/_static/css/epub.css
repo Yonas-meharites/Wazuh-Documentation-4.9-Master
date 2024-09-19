@@ -13,16 +13,16 @@ code {
     z-index: 0;
     display: block;
     padding: 0;
-    font-size: 9px; /* Set default font size for code */
+    font-size: 10px; /* Set default font size for code */
     line-height: 18px;
 }
 
 /* Token-specific styles (for finer control) */
-.highlight .c { font-size: 9px; } /* Comment */
-.highlight .err { font-size: 9px; } /* Error */
-.highlight .l { font-size: 9px; } /* Literal */
-.highlight .n { font-size: 9px; } /* Name */
-.highlight .k { font-size: 9px; } /* Keyword */
+.highlight .c { font-size: 10px; } /* Comment */
+.highlight .err { font-size: 10px; } /* Error */
+.highlight .l { font-size: 10px; } /* Literal */
+.highlight .n { font-size: 10px; } /* Name */
+.highlight .k { font-size: 10px; } /* Keyword */
 
 /* Additional styles */
 .element {
