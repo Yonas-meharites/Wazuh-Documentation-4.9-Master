@@ -28,7 +28,7 @@ code {
     overflow-x: auto;
     font-family: "Fira Mono", monospace;
     font-size: 12px; /* Set default font size for code */
-    line-height: 18px;
+    line-height: 20px;
 }
 
 /* Token-specific styles (for finer control) */
