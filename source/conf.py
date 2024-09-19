@@ -105,11 +105,11 @@ html_favicon = 'icons/favicon.ico'
 html_permalinks = True
 
 # HTML context
-# html_context = {
-#     "display_github": False,
-#     "github_user": "wazuh",
-#     "github_repo": "wazuh-documentation",
-#     'github_version': 'main',
-#     "conf_py_path": "/source/",
-# }
+html_context = {
+    "display_github": False,
+    "github_user": "wazuh",
+    "github_repo": "wazuh-documentation",
+    'github_version': 'main',
+    "conf_py_path": "/source/",
+}
 
