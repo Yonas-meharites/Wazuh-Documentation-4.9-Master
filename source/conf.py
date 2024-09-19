@@ -106,7 +106,7 @@ html_permalinks = True
 
 # HTML context
 html_context = {
-    "display_github": False,
+    "display_github": True,
     "github_user": "wazuh",
     "github_repo": "wazuh-documentation",
     'github_version': 'main',
