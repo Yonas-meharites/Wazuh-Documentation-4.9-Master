@@ -3,6 +3,10 @@ pre {
     word-wrap: break-word; /* This forces long words (like URLs) to break */
 }
 
+.link-target {
+    all: unset; /* Resets all properties */
+}
+
 code {
     white-space: pre-wrap; /* This ensures long lines wrap properly */
 }
@@ -35,7 +39,7 @@ code {
     background-color: #e2eefe; /* Light blue background color */
     padding: 2px 4px; /* Padding to make the text stand out */
     border-radius: 3px; /* Rounded corners */
-    font-weight: normal; /* Ensures the text is not bold */
+    font-weight: bold; /* Ensures the text is not bold */
 }
 
 /* Apply normal spacing for all links */
