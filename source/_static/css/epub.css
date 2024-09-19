@@ -36,12 +36,27 @@ code {
 }
 
 .highlight {
-    color: #fff;
-    background-color: #333;
+    color: #2e09e752;
+    background-color: #ececec;
 }
 
-code.docutils.literal.notranslate .pre {
-    color: #e74c3c; /* Red text color */
+.highlight-doscon.notranslate {
+    color: #000; /* Optional: Text color (e.g., black) */
+    background-color: #d3d3d3; /* Light gray background color */
+    padding: 2px 4px; /* Optional: Padding to add space around text */
+    border-radius: 3px; /* Optional: Rounded corners */
+}
+
+
+.highlight-console.notranslate {
+    color: #000; /* Optional: Text color (e.g., black) */
+    background-color: #d3d3d3; /* Light gray background color */
+    padding: 2px 4px; /* Optional: Padding to add space around text */
+    border-radius: 3px; /* Optional: Rounded corners */
+
+
+.code.docutils.literal.notranslate .pre {
+    color: #fba095; /* Red text color */
     background-color: #e2eefe; /* Light blue background color */
     padding: 2px 4px; /* Padding to make the text stand out */
     border-radius: 3px; /* Rounded corners */
