@@ -39,3 +39,11 @@ code {
     color: #fff;
     background-color: #333;
 }
+
+code.docutils.literal.notranslate .pre {
+    color: #e74c3c; /* Red text color */
+    background-color: #e2eefe; /* Light blue background color */
+    padding: 2px 4px; /* Padding to make the text stand out */
+    border-radius: 3px; /* Rounded corners */
+    font-weight: bold; /* Makes the text bold */
+}
