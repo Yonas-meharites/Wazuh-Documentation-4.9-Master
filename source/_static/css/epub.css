@@ -35,7 +35,7 @@ code {
     }
 }
 
-.dark-theme [class*="highlight-"] .highlight {
+.highlight {
     color: #fff;
     background-color: #333;
 }
