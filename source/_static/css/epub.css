@@ -29,34 +29,8 @@ code {
     background-color: #f0f0f0;
 }
 
-@media (max-width: 768px) {
-    .responsive-element {
-        padding: 10px;
-    }
-}
-
-.highlight {
-    color: #2e09e752;
-    background-color: #ececec;
-}
-
-.highlight-doscon.notranslate {
-    color: #000; /* Optional: Text color (e.g., black) */
-    background-color: #d3d3d3; /* Light gray background color */
-    padding: 2px 4px; /* Optional: Padding to add space around text */
-    border-radius: 3px; /* Optional: Rounded corners */
-}
-
-/* outputs in console..............*/
-.highlight-console.notranslate {
-    color: #000; /* Optional: Text color (e.g., black) */
-    background-color: #d3d3d3; /* Light gray background color */
-    padding: 2px 4px; /* Optional: Padding to add space around text */
-    border-radius: 3px; /* Optional: Rounded corners */
-}
-
 /* literal inclosed texts between two backticks..*/
-.code.docutils.literal.notranslate .pre {
+.docutils.literal.notranslate .highlight {
     color: #fba095; /* Red text color */
     background-color: #e2eefe; /* Light blue background color */
     padding: 2px 4px; /* Padding to make the text stand out */
@@ -72,3 +46,5 @@ a {
     line-height: normal; /* Resets line height to normal */
     word-spacing: normal; /* Resets word spacing to normal */
 }
+
+
