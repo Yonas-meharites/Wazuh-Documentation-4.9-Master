@@ -31,7 +31,7 @@ code {
 
 /* literal inclosed texts between two backticks..*/
 .docutils.literal.notranslate .pre {
-    color: #fba095; /* Red text color */
+    color: #7c3db2; /* Red text color */
     background-color: #e2eefe; /* Light blue background color */
     padding: 2px 4px; /* Padding to make the text stand out */
     border-radius: 3px; /* Rounded corners */
