@@ -110,6 +110,5 @@ html_context = {
     "github_user": "wazuh",
     "github_repo": "wazuh-documentation",
     'github_version': 'main',
-    "conf_py_path": "/source/",
 }
 
