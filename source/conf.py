@@ -63,7 +63,9 @@ epub_identifier = 'unique-identifier'
 epub_scheme = '2024-09-17-Version-4.9'
 epub_language = 'en'
 epub_exclude_files = ['search.html']
-epub_cover = ('_static/_images/cover.jpg', '')
+# Path to the cover image
+epub_cover = ('_static/_images/Cover.png', '')
+
 
 epub_css_files = [
     'css/epub.css',               # Your custom CSS
