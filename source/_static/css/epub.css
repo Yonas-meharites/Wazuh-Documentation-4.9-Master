@@ -1,3 +1,17 @@
+
+/*..... font trial in body text........................*/
+
+@import url("../fonts/google-fonts.min.css");
+
+body {
+    position: relative;
+    font-family: Manrope, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
 pre {
     white-space: pre-wrap; /* This ensures long lines wrap properly */
     word-wrap: break-word; /* This forces long words (like URLs) to break */
@@ -6,7 +20,6 @@ pre {
 div.reference.external .link-target {
     all: unset !important; /* Resets all properties */
 }
-
 
 
 code {
