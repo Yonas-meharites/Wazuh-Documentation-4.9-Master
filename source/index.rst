@@ -33,5 +33,4 @@ Index
 
 About
 ============================
-
-Yohannes Iyob Tekle, a Sweden-based Information Security Consultant working remotely for a Dubai-based company, developed the Read the Docs website for the Wazuh community. His contribution aims to enhance the accessibility and usability of the documentation for all users.
+Yohannes Iyob Tekle, a Sweden-based Information Security Consultant, independently developed an unofficial Read the Docs version of the Wazuh documentation, based on publicly available materials from the Wazuh project.
